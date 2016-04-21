@@ -1,0 +1,109 @@
+<!---Create a Javascript application that will calculate the tax on the annual salary inputted by the user. 
+
+The calculator will have 1 user input (their salary) and 5 outputs onto the webpage which are the following: 
+
+Gross Salary
+
+Tax free allowance
+
+Tax at 20%
+
+Tax at 40%
+
+Net Salary
+
+The following 2015/2016 tax rates should be applied-->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="SalaryCalculatorCSS.css">
+
+</head>
+    
+    
+    
+    
+<body> 
+
+    <div class="container">
+
+    <!------ 1st Row - Description ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <H1>Salary Tax Calculator</H1>
+    </div>
+    </div>
+    <!------End of 1st Row ----------->
+        
+        
+
+    <!------ 2nd Row - Description ---->
+        
+    <div class="row">
+    <div class="col-sm-6">
+    <p>Please enter the salary amount.</p>
+
+    <!-- Creating input for user to enter salary-->
+    <form>   
+    <input type="number" id="amount"> 
+    </form>
+    </div>
+        
+       
+    <!----Creating DIV elements to display the Result---->
+    
+    <div class="col-sm-6">
+    <p id="GrossSalary"></p>
+    <p id="TaxFreeAllowance"></p>
+    <p id="TaxAt20"></p>
+    <p id="TaxAt40"></p>
+    <p id="NetSalary"></p>
+    </div>
+  
+ 
+
+    </div>
+    <!------End of 2nd Row ----------->
+
+        
+        
+    <!------ 3rd Row - Description ---->
+    <!----Creating Button for Calculating and reset --->
+    <div class="row">
+    <div class="col-sm-12">
+    <div><button id="button">Calculate Tax</button></div>
+    </div>
+    </div>    
+    <!------End of 3rd Row ----------->
+        
+        
+    <!------Start of 4th Row ----------->
+
+    <div class="row">
+    <div class="col-sm-1">
+    <button id="button1">Reset</button>
+    </div>
+    </div>
+    <!------End of 4th Row ----------->
+    
+
+
+
+
+   
+
+
+    <script src="SalaryCalculatorJS.js"></script>
+   </div>
+
+</body>
+</html>
