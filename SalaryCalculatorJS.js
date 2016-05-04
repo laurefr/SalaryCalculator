@@ -19,12 +19,8 @@ function calculate()
             document.getElementById("GrossSalary").innerHTML ="<li>"+ "Your Gross Salary is " +salary+"."+"</li>";
             
             document.getElementById("TaxFreeAllowance").innerHTML ="<li>"+ "Your Tax Free Allowance "+ 10600. +"</li>";
-
-            document.getElementById("TaxAt20").innerHTML ="<li>"+ "Your Tax At 20% is " + 0+"."+"</li>";
-
-            document.getElementById("TaxAt40").innerHTML ="<li>"+ "Your Tax at 40% is " + 0+"."+"</li>";
-
-            document.getElementById("NetSalary").innerHTML ="<li>"+ "Your Net Salary is "+salary+"."+"</li>";
+                                                                                                                                                     
+            document.getElementById("NetSalary").innerHTML ="<li>"+ "Your Net Salary is "+salary + "." + "</li>" ;
 
         }
     
@@ -39,15 +35,13 @@ function calculate()
             
             var NetSalary = salary-Tax;
             
-            document.getElementById("GrossSalary").innerHTML ="Your Gross Salary is " +salary;
+            document.getElementById("GrossSalary").innerHTML ="<li>"+"Your Gross Salary is" +salary+"."+"</li>";
             
-            document.getElementById("TaxFreeAllowance").innerHTML ="Your Tax Free Allowance "+ 10600;
+            document.getElementById("TaxFreeAllowance").innerHTML ="<li>"+"Your Tax Free Allowance "+ 10600+"."+"</li>";
 
-            document.getElementById("TaxAt20").innerHTML = "Your Tax At 20% is " + Tax;
+            document.getElementById("TaxAt20").innerHTML ="<li>" + "Your Tax At 20% is " + Tax+"."+"</li>";
 
-            document.getElementById("TaxAt40").innerHTML = "Your Tax at 40% is " + 0;
-
-            document.getElementById("NetSalary").innerHTML = "Your Net Salary is "+NetSalary;
+            document.getElementById("NetSalary").innerHTML ="<li>"+ "Your Net Salary is "+NetSalary+"."+"</li>";
 
         }
     
@@ -68,15 +62,15 @@ function calculate()
             var NetSalary = salary-totaltax;
             
             
-            document.getElementById("GrossSalary").innerHTML ="Your Gross Salary is " +salary;
+            document.getElementById("GrossSalary").innerHTML ="<li>"+"Your Gross Salary is " +salary+"."+"</li>";
             
-            document.getElementById("TaxFreeAllowance").innerHTML ="Your Tax Free Allowance "+ 10600;
+            document.getElementById("TaxFreeAllowance").innerHTML ="<li>"+"Your Tax Free Allowance "+ 10600+"."+"</li>";
 
-            document.getElementById("TaxAt20").innerHTML = "Your Tax At 20% is " + Tax;
+            document.getElementById("TaxAt20").innerHTML = "<li>"+"Your Tax At 20% is " + Tax+"."+"</li>";
 
-            document.getElementById("TaxAt40").innerHTML = "Your Tax at 40% is " + Tax1;
+            document.getElementById("TaxAt40").innerHTML ="<li>"+ "Your Tax at 40% is " + Tax1+"."+"</li>";
 
-            document.getElementById("NetSalary").innerHTML = "Your Net Salary is "+NetSalary;
+            document.getElementById("NetSalary").innerHTML ="<li>"+ "Your Net Salary is "+NetSalary+"."+"</li>";
 
         }
     
